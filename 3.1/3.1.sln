@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.1", "3.1\3.1.1.csproj", "{45D91033-5C53-4C26-9ADB-726CFDCAF7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.2", "3.1.2\3.1.2.csproj", "{ED49649E-AFAA-460A-9545-AF8015B26F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1.6", "3.1.6", "{90FE4451-B9CA-488B-B974-3999031EE576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{6CC1DD7E-1DA9-48BB-8413-9335C33873D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Server\Client\Client.csproj", "{BE29E790-C13B-4D58-A16D-B66C478F2119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D91033-5C53-4C26-9ADB-726CFDCAF7EC}.Debug|x86.ActiveCfg = Debug|x86
+		{45D91033-5C53-4C26-9ADB-726CFDCAF7EC}.Debug|x86.Build.0 = Debug|x86
+		{45D91033-5C53-4C26-9ADB-726CFDCAF7EC}.Release|x86.ActiveCfg = Release|x86
+		{45D91033-5C53-4C26-9ADB-726CFDCAF7EC}.Release|x86.Build.0 = Release|x86
+		{6CC1DD7E-1DA9-48BB-8413-9335C33873D7}.Debug|x86.ActiveCfg = Debug|x86
+		{6CC1DD7E-1DA9-48BB-8413-9335C33873D7}.Debug|x86.Build.0 = Debug|x86
+		{6CC1DD7E-1DA9-48BB-8413-9335C33873D7}.Release|x86.ActiveCfg = Release|x86
+		{6CC1DD7E-1DA9-48BB-8413-9335C33873D7}.Release|x86.Build.0 = Release|x86
+		{BE29E790-C13B-4D58-A16D-B66C478F2119}.Debug|x86.ActiveCfg = Debug|x86
+		{BE29E790-C13B-4D58-A16D-B66C478F2119}.Debug|x86.Build.0 = Debug|x86
+		{BE29E790-C13B-4D58-A16D-B66C478F2119}.Release|x86.ActiveCfg = Release|x86
+		{BE29E790-C13B-4D58-A16D-B66C478F2119}.Release|x86.Build.0 = Release|x86
+		{ED49649E-AFAA-460A-9545-AF8015B26F15}.Debug|x86.ActiveCfg = Debug|x86
+		{ED49649E-AFAA-460A-9545-AF8015B26F15}.Debug|x86.Build.0 = Debug|x86
+		{ED49649E-AFAA-460A-9545-AF8015B26F15}.Release|x86.ActiveCfg = Release|x86
+		{ED49649E-AFAA-460A-9545-AF8015B26F15}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CC1DD7E-1DA9-48BB-8413-9335C33873D7} = {90FE4451-B9CA-488B-B974-3999031EE576}
+		{BE29E790-C13B-4D58-A16D-B66C478F2119} = {90FE4451-B9CA-488B-B974-3999031EE576}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = 3.1\3.1.1.csproj
+	EndGlobalSection
+EndGlobal
